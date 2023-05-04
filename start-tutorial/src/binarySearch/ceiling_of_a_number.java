@@ -7,7 +7,7 @@ public class ceiling_of_a_number {
         int result = ceiling(array,46);
         System.out.println(result);
     }
-    private static int ceiling(int[] arr, int target){
+     static int ceiling(int[] arr, int target){
         int start = 0;
         int end = arr.length-1;
         if(target > arr[end] ) return -1;
